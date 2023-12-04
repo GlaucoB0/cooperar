@@ -1,0 +1,103 @@
+body{
+    background-color: #F8FAFB;
+    
+}
+.box-barra-superior{
+    display: flex;
+    justify-content: center;
+}
+#barra-superior{
+   width: 1153px;
+   height: 91px;
+   flex-shrink: 0;
+   background-color: rgb(255, 255, 255);
+   border-radius: 30px;
+   box-shadow:  5px 5px 15px rgba(151, 151, 151, 0.25);
+   margin-top: 22px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+ 
+}
+.box-bolinhas{
+    width: 752px;
+    height: 60px;
+    background-color: white;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+#bolinha1{
+    width: 60px;
+    height: 60px;
+    background-color: #2C2D5B;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#bolinha2{
+    width: 60px;
+    height: 60px;
+    background-color: #DADADA;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+#bolinha3{
+    width: 60px;
+    height: 60px;
+    background-color: #DADADA;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#numero1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+#numero2{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+#numero3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.box-vazia{
+    display: flex;
+    justify-content: center;
+}
+.box-texto-tempo{
+    width: 760px;
+    height: 60px;
+    background-color: white;
+    border: 1px black solid;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dados-pessoais{
+    color: #2C2D5B;
+}
