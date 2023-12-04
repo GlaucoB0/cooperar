@@ -9,11 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
     <header>
         <div class="nav-bar">
-            <img src="./img/Logo.svg" alt="">
+            <div id="logo">
+                <img src="./img/Logo.svg" alt="" id="img-logo">
+                <span id="nome-logo">C<font color="#2B468B">oo</font>perar</span>
+            </div>
+            
             <div class="navegacao">
                 <a href="#inicial">Inicial</a>
                 <a href="#sobre-nos">Sobre nós</a>
@@ -23,11 +36,30 @@
             </div>
             <div class="usuario">
                 <a href="" id="login">Entrar</a>                
-                <a href="./pages/cadastro.html" id="cadastro">Cadastro</a>
+                <a href="./pages/cadastro.html" id="cadastro">Cadastre-se</a>
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="container">
+            <div class="informacao-inicial" id="inicial">
+                <span id="nome-projeto">C<font color="#2B468B">oo</font>perar</span>
+                <span id="texto-inicial">Uma solução tecnológica inovadora e acessível para construir uma comunidade inclusiva e acessível em <font id="jaragua">Jaraguá do Sul</font>, promovendo a igualdade de oportunidades, a inovação colaborativa e o empoderamento das pessoas com deficiência.</span>
+                <div class="conheca">
+                    <a href="./pages/cadastro.html" id="cadastro">Cadastre-se</a>
+                    <a href="#sobre-nos" class="conheca-nos">
+                        <div class="i">
+                            <img src="./img/Pasted-20231204-111748.svg" alt="" height="27.36px" id="i">
+                        </div>
+                        <div class="conheca-nos">Conheça nossa plataforma</div>
+                    </a>
+                </div>
+            </div>
+            <div class="imagem-pessoas">
+                <img src="./img/pessoas.svg" alt="" id="imagem-pessoas">
+            </div>
+        </div>
+    </main>
     <footer></footer>
 
     <script src="app.js"></script>
