@@ -1,0 +1,31 @@
+:root{
+    --azul-escuro: #2C2D5B ;
+    --azul-escrito: #2B468B;
+    --white: #FFF;
+    --brown: #3A3132;
+}
+body{
+    width: 100%;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: var(--black, #141414);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+#cadastro{
+    background-color: var(--azul-escuro) ;
+}
