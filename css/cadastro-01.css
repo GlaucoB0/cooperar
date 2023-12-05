@@ -87,7 +87,7 @@ body{
     font-weight: 700;
 }
 .box-texto-tempo{
-    border: 1px rgb(0, 0, 0) solid; 
+    /* border: 1px rgb(0, 0, 0) solid;  */
     display: flex;
     justify-content: center;
   
@@ -95,7 +95,7 @@ body{
 .texto-tempo{
     width: 1153px;
     height: 40px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 25px;
@@ -104,7 +104,7 @@ body{
    
 }
 .box-cadastro{
-    border: 1px black solid;
+    /* border: 1px black solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,17 +112,85 @@ body{
 .cadastro{
     width: 1200px;
     height: 700px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background-color: white;
     box-shadow: 0px 4px 25px 0px rgba(151, 151, 151, 0.25);
     border-radius: 30px;
 }
 .box-logo-cadastro{
     height: 100px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
+.box-infomacoes-pessoais{
+    margin: 25px;
+}
+
+/* .info-básicas{
+    padding: 5px;
+} */
+
+.title1{
+    display: flex;
+    justify-content: center;
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    padding-right: 30px;
+}
+
+.second-name{
+    padding-right: 30px;
+}
+
+.cpf{
+    padding-right: 30px;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    padding-right: 30px;
+}
+
+.title3{
+    display: flex;
+    justify-content: center;
+}
+
+.info3{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    padding-right: 30px;
+}
+
+.passaword{
+    padding-right: 30px;
+}
+
+/* .botões{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
