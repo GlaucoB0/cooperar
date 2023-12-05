@@ -13,6 +13,7 @@ body{
     justify-content: center;
 }
    #barra-superior{
+    margin-bottom: 40px;
    width: 1153px;
    height: 91px;
    flex-shrink: 0;
