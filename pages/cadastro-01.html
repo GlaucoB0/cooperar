@@ -1,135 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/cadastro-01.css">
+    <link rel="stylesheet" href="../css/cadastro-01.css" />
     <!-- link da 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link da 900 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link da 100 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link da 300 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link da 400 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="box-barra-superior">
-        <navbar id="barra-superior"> 
-            <div class="box-bolinhas">
-                <div id="bolinha1">
-                    <div id="numero1">1</div>
-                </div>
-                <div id="bolinha2">
-                    <div id="numero2">2</div>
-                </div>
-                <div id="bolinha3">
-                    <div id="numero3">3</div>
-                </div>
-            </div>
-        </navbar>
+        <a href="/index.html" class="voltar">
+            <img src="/img/Botão home.svg" alt="" class="img-voltar">
+            <span id="voltar-inicio">Página Inicial</span>
+        </a>
+      <navbar id="barra-superior">
+        <div class="box-bolinhas">
+          <div id="bolinha1">
+            <div id="numero1">1</div>
+          </div>
+          <div id="bolinha2">
+            <div id="numero2">2</div>
+          </div>
+          <div id="bolinha3">
+            <div id="numero3">3</div>
+          </div>
+        </div>
+      </navbar>
     </header>
     <article class="box-texto-tempo">
-        <section class="texto-tempo">
-            <div class="dados-pessoais">
-                Dados pessoais
-            </div>
-            <div class="endereço">
-                Endereço
-            </div>
-            <div class="Condição">
-                Condição
-            </div>
-            
-            
-            
-        </section>
+      <section class="texto-tempo">
+        <div class="dados-pessoais">Dados pessoais</div>
+        <div class="endereço">Endereço</div>
+        <div class="Condição">Condição</div>
+      </section>
     </article>
 
-    <main class="box-cadastro"> 
-        <div class="cadastro">
-            <div class="box-logo-cadastro">
-                <img id="logo" src="../img/Group 7045.svg" alt="">
-            </div>
-
-            <div class="box-infomacoes-pessoais">
-                <section class="info-básicas">
-                    <p class="title1">Informações pessoais</p>
-                    <form class="info1">
-                        <div class="name">
-                            <label for="Nome">Nome:</label>
-                            <input type="text" id="nome" placeholder="Digite seu nome...">
-                        </div>
-                        <div class="second-name">
-                            <label for="Sobrenome">Sobrenome:</label>
-                            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome...">
-                        </div>
-                        <div class="cpf">
-                            <label for="CPF">CPF:</label>
-                            <input type="text" id="CPF" placeholder="Digite seu CPF...">
-                        </div>
-                    </form>
-                </section>
-            
-                <hr>
-            
-                <section class="info-nascimentos">
-                    <p class="title2">Informações de nascimento</p>
-                    <form class="info2">
-                        <div class="date">
-                            <label for="Data">Data:</label>
-                            <input type="date" id="nascimento" name="nascimento">
-                        </div>
-                        <label for="Gênero">Gênero:</label>
-                        <input type="text" id="gênero" placeholder="Digite seu gênero">
-                    </form>
-                </section>
-            
-                <section class="info-cadastro">
-                    <p class="title3">Informações de cadastro</p>
-                    <form class="info3">
-                        <div class="email">
-                            <label for="Email">Email:</label>
-                            <input type="text" id="email" placeholder="Digite seu email...">
-                        </div>
-                        <div class="password">
-                            <label for="Senha">Senha:</label>
-                            <input type="text" id="senha" placeholder="Digite seu senha...">
-                        </div>
-                    </form>
-                </section>
-
-                <section class="botões">
-                    <button type="button">Avançar</button>
-                    <a href="#">Já possui outra conta?</a>
-                </section>
-            
-            </div>
-        
+    <main class="box-cadastro">
+      <div class="cadastro">
+        <div class="box-logo-cadastro">
+          <img id="logo" src="../img/Group 7045.svg" alt="" />
         </div>
+
+        <div class="box-infomacoes-pessoais">
+          <section class="info-básicas">
+            <p class="title1">Informações pessoais</p>
+            <form class="info1">
+              <div class="name">
+                <label for="Nome" id="nome">Nome:</label>
+                <input
+                  type="text"
+                  id="imput-nome"
+                  placeholder="Digite seu nome..."
+                />
+              </div>
+              <div class="second-name">
+                <label for="Sobrenome" id="sobrenome">Sobrenome:</label>
+                <input
+                  type="text"
+                  id="imput-sobrenome"
+                  placeholder="Digite seu sobrenome..."
+                />
+              </div>
+              <div class="cpf">
+                <label for="CPF" id="cpf">CPF:</label>
+                <input
+                  type="text"
+                  id="imput-cpf"
+                  placeholder="Digite seu CPF..."
+                />
+              </div>
+            </form>
+          </section>
+
+          <hr />
+
+          <div class="info-cadas-nasc">
+            <section class="info-nascimentos">
+              <form class="info2">
+                <div class="date">
+                  <p class="title2">Informações de nascimento</p>
+                  <label for="Data" id="data">Data:</label>
+                  <input type="date" id="imput-nascimento" name="nascimento" />
+                  <label for="Gênero" id="genero">Gênero:</label>
+                  <input
+                    type="text"
+                    id="imput-genero"
+                    placeholder="Digite seu gênero"
+                  />
+                </div>
+              </form>
+            </section>
+            <section class="info-cadastro">
+              <form class="info3">
+                <div class="email">
+                  <p class="title3">Informações de cadastro</p>
+                  <label for="Email" id="email">Email:</label>
+                  <input
+                    type="text"
+                    id="imput-email"
+                    placeholder="Digite seu email..."
+                  />
+
+                  <label for="Senha" id="senha">Senha:</label>
+                  <input
+                    type="text"
+                    id="imput-senha"
+                    placeholder="Digite seu senha..."
+                  />
+                </div>
+              </form>
+            </section>
+          </div>
+
+          <section class="box-botao">
+            <button type="button" id="botaoavancar">Avançar</button>
+            <a id="redirect-login" href="#">Já possui outra conta?</a>
+          </section>
+        </div>
+      </div>
+      <img src="/img/Group.svg" class="mocarobotica" alt="" />
     </main>
-  
-   
-    
-    
 
-    
-    
-    
-
-<script src="../js/cadastro-01.js"></script>
-</body>
+    <script src="../js/cadastro-01.js"></script>
+  </body>
 </html>
