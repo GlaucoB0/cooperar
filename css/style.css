@@ -207,3 +207,39 @@ main{
     margin-top: 22px;
     text-decoration: none;
 }
+#sobre-nos{
+    height: 858px;
+    background-color: #F8FAFB;
+    margin-top: 223px;
+    margin-left: -500px;
+}
+.conter{
+    border: 1px solid;
+    margin-left: 500px;
+    height: 660px;
+    width: 452px;
+}
+h1{
+    color: #141414;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.texto{
+    color: #333;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.linha{
+    background-color: #2C2D5B;
+    width: 231px;
+    height: 4px;
+    margin-top: -34px;
+    margin-bottom: 50px;
+}
