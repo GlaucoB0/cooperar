@@ -27,8 +27,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="box-barra-superior">
-        <div id="barra-superior"> 
+    <header class="box-barra-superior">
+        <navbar id="barra-superior"> 
             <div class="box-bolinhas">
                 <div id="bolinha1">
                     <div id="numero1">1</div>
@@ -40,10 +40,10 @@
                     <div id="numero3">3</div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="box-texto-tempo">
-        <div class="texto-tempo">
+        </navbar>
+    </header>
+    <article class="box-texto-tempo">
+        <section class="texto-tempo">
             <div class="dados-pessoais">
                 Dados pessoais
             </div>
@@ -56,26 +56,71 @@
             
             
             
-        </div>
-    </div>
-    <div class="box-cadastro"> 
+        </section>
+    </article>
+
+    <main class="box-cadastro"> 
         <div class="cadastro">
             <div class="box-logo-cadastro">
-                <div class="logo">
-                    <img src="../img/Group 7045.svg" alt="">
-                </div>
-                
+                <img id="logo" src="../img/Group 7045.svg" alt="">
             </div>
-            <div class="box-infomacoes-basicas">
-                <div class="informacoes-basicas">
-                    <p>informações Básicas</p>
-                </div>
-           
 
-        </div>
+            <div class="box-infomacoes-pessoais">
+                <section class="info-básicas">
+                    <p class="title1">Informações pessoais</p>
+                    <form class="info1">
+                        <div class="name">
+                            <label for="Nome">Nome:</label>
+                            <input type="text" id="nome" placeholder="Digite seu nome...">
+                        </div>
+                        <div class="second-name">
+                            <label for="Sobrenome">Sobrenome:</label>
+                            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome...">
+                        </div>
+                        <div class="cpf">
+                            <label for="CPF">CPF:</label>
+                            <input type="text" id="CPF" placeholder="Digite seu CPF...">
+                        </div>
+                    </form>
+                </section>
+            
+                <hr>
+            
+                <section class="info-nascimentos">
+                    <p class="title2">Informações de nascimento</p>
+                    <form class="info2">
+                        <div class="date">
+                            <label for="Data">Data:</label>
+                            <input type="date" id="nascimento" name="nascimento">
+                        </div>
+                        <label for="Gênero">Gênero:</label>
+                        <input type="text" id="gênero" placeholder="Digite seu gênero">
+                    </form>
+                </section>
+            
+                <section class="info-cadastro">
+                    <p class="title3">Informações de cadastro</p>
+                    <form class="info3">
+                        <div class="email">
+                            <label for="Email">Email:</label>
+                            <input type="text" id="email" placeholder="Digite seu email...">
+                        </div>
+                        <div class="password">
+                            <label for="Senha">Senha:</label>
+                            <input type="text" id="senha" placeholder="Digite seu senha...">
+                        </div>
+                    </form>
+                </section>
+
+                <section class="botões">
+                    <button type="button">Avançar</button>
+                    <a href="#">Já possui outra conta?</a>
+                </section>
+            
+            </div>
         
         </div>
-    </div>
+    </main>
   
    
     
