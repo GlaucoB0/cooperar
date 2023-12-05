@@ -46,7 +46,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 
 }
 #bolinha2{
@@ -57,7 +56,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    z-index: 0 ;
 
 }
 #bolinha3{
@@ -391,4 +390,10 @@ body{
     text-transform: capitalize;
     top: 100px;
     margin-left: -140px;
+}
+.linha{
+    width: 632px;
+    height: 4px;
+    background-color: #DADADA;
+    position: absolute;
 }
