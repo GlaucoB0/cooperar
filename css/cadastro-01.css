@@ -1,4 +1,4 @@
-body{
+.box-grand{
     background-color: #F8FAFB;
     margin: 0;
     padding: 0;
@@ -341,19 +341,27 @@ body{
     width: 453.4px;
     height: 61.898px;
     border-radius: 12px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #2C2D5B;
     color: white;
     font-size: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     font-family: 'Lato', sans-serif;
+    text-decoration:none ;
 }
 
 .box-botao{
-    /* border:1px #2C2D5B solid; */
+    /* border:1px #2C2D5B solid;  */
     display: flex;
     align-items: center;
     width: 1120px;
+    flex-direction: column;
+}
+.button-link{
+    /* border:1px #2C2D5B solid; */
+    display: flex;
     flex-direction: column;
 }
 #redirect-login{
@@ -394,6 +402,6 @@ body{
 .linha{
     width: 632px;
     height: 4px;
-    background-color: #DADADA;
+    background-color: #e0e0e0;
     position: absolute;
 }
