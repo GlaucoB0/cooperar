@@ -6,11 +6,13 @@
 }
 *{
     font-family: Lato;
+    scroll-behavior:smooth;
 }
 body{
     width: 100%;
     margin: 0px;
     height: 5938px;
+    
 }
 #header{
     position: fixed;
@@ -20,6 +22,7 @@ body{
     padding: 25px 10px;
     background-color: #fff;
     width: 100%;
+    z-index: 1;
 }
 #nav-bar{
     display: flex;
@@ -78,6 +81,7 @@ a{
 /* PAGINA INICIAL*/
 main{
     margin-left: 300px;
+    padding-bottom: 451px;
 }
 #nome-projeto{
     color: #141414;
