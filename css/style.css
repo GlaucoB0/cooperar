@@ -12,18 +12,16 @@ body{
     margin: 0px;
     height: 1900px;
 }
-header{
+#header{
     position: fixed;
     display: flex;
     justify-content: center;
-    margin:auto;
-    left: 0;
-    right: 0;
-    padding-top: 50px;
-    background-color: #FFF;
+    transition: 0.4s;
+    padding: 25px 10px;
+    background-color: #fff;
     width: 100%;
 }
-.nav-bar{
+#nav-bar{
     display: flex;
     align-items: center;
 }
