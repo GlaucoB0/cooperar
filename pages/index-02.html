@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial - Cooperar</title>
-    <link rel="shortcut icon" type="imagex/png" href="./img/Logo.svg">
-    <link rel="stylesheet" href="../css/style-02.css">
+    <link rel="shortcut icon" type="imagex/png" href="../img/Logo.svg">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -24,20 +24,23 @@
     <header id="header">
         <div id="nav-bar">
             <div id="logo">
-                <img src="../img/Logo.svg" alt="" id="img-logo">
+                <img src="../img/Logo.jpg" alt="" id="img-logo">
                 <span id="nome-logo">C<font color="#2B468B">oo</font>perar</span>
             </div>
             
             <div class="navegacao">
-                <a href="#inicial">Inicial</a>
-                <a href="#sobre-nos">Sobre nós</a>
-                <a href="#noticias">Noticias</a>
-                <a href="#infografico">Infográfico</a>
-                <a href="#config">Configurações</a>
+              <a href="#inicial" class="links">Inicial</a>
+              <a href="#sobre-nos" class="links">Sobre Nós</a>
+              <a href="#noticias" class="links">Noticias</a>
+              <a href="#infografico" class="links">Mapa de acessibilidade</a>
+              <a href="./config.html" class="links">Configurações</a>
             </div>
+
             <div class="usuario">
-                <img src="../img/usuário.svg" alt="">
+                <a href="./config.html"><img id="user-icon" src="../assets/User icon.svg" alt=""></a>
+                <p id="user-msg">Olá Usuário!</p>
             </div>
+
         </div>
     </header>
     <main>
@@ -46,8 +49,8 @@
                 <span id="nome-projeto">C<font color="#2B468B">oo</font>perar</span>
                 <span id="texto-inicial">Uma solução tecnológica inovadora e acessível para construir uma comunidade inclusiva e acessível em <font id="jaragua">Jaraguá do Sul</font>, promovendo a igualdade de oportunidades, a inovação colaborativa e o empoderamento das pessoas com deficiência.</span>
                 <div class="conheca">
-                    <a href="./pages/cadastro-01.html" id="cadastro">Cadastre-se</a>
-                    <a href="#sobre-nos" class="conheca-nos">
+                    <a href="./pages/cadastro-01.html" id="cadastro" class="links">Noticiário</a>
+                    <a href="#sobre-nos" class="conheca-nos" class="links">
                         <div class="i">
                             <img src="../img/Pasted-20231204-111748.svg" alt="" height="27.36px" id="i">
                         </div>
@@ -73,7 +76,8 @@
                 </div>
                 <div class="input-sugestao">
                     <span class="a">Sugestão</span>
-                    <input type="text" id="sugestao" placeholder="Escreva sua sugestao...">
+                    <textarea type="text" id="sugestao" placeholder="Escreva sua sugestao...">
+                    </textarea>
                 </div>
                 <button class="enviar-sugestao">Enviar</button>
             </div>
@@ -146,19 +150,86 @@
                 </div>
             </div>
         </div>
-        <div id="infografico">
-            <div class="conter-grafico">
-                <div class="">
-                    Grafico
+        <section class="conter-infografico" id="infografico">
+            <div id="infografico">
+                <div class="titulo-grafico">
+                        <h1>Mapa de acessibilidade</h1>
+                        <div class="linha"></div>
                     </div>
-                    <div class="linha"></div>
+                <div class="conter-grafico">
+                    <div class="informacoes-graficas">
+                        <div class="selecionar-regioes">
+                            <form action="/action_page.php" method="get">
+                                <label class="aba-regioes">Regiões com:</label>
+                                <input list="regioes" name="browser" id="list-regioes">
+                                <datalist id="regioes">
+                                  <option value="Edge">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+                            </form>
+                        </div>
+                        <div class="conter-texto">
+                            <p class="texto-regiao">
+                                A falta de adaptações estruturais e a ausência de conscientização frequentemente transformam espaços públicos em verdadeiros obstáculos para pessoas com deficiência. Desde calçadas sem rampas acessíveis até estabelecimentos sem estrutura adaptada, a realidade da falta de acessibilidade não apenas limita a mobilidade, mas também perpetua a invisibilidade dos desafios enfrentados por muitos. 
+                            Aqui está um gráfico que representa regiões com pouca acessibilidade:
+                            </p>
+                        </div>
+                        <div class="grafico-pizza">
+                            <div class="grafico-pizza"></div>
+                            <div class="conter-info">
+                                <span class="info">
+                                    <div class="informacoes-grafico" id="quadrado1"></div>
+                                    <label for="informacao1" class="descricao-info">Lorem ipsum</label>
+                                </span>
+                                <span class="info">
+                                    <div class="informacoes-grafico" id="quadrado2"></div>
+                                    <label for="informacao2" class="descricao-info">Lorem ipsum</label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grafico">
+                        <h1 id="titulo-bairros">Bairros:</h1>
+                        <img src="../img/mapa-cinza.svg" alt="">
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
-        
+        <div class="conter-footer">
+            <div class="conterr" id="conter-descricao">
+                <h2 class="titulo-descricao">C<font color="#386DBD">OO</font>PERAR</h2>
+                <div class="separar"></div>
+                <p>Cooperar é um plataforma de ajuda para à cidade de Jaraguá do Sul, com o intuito de melhorar a qualidade de vida das pessoas com condições especiais de Jaraguá do Sul.</p>
+            </div>
+            <div class="conterr" id="conter-explorer">
+                <h2 class="titulo-descricao">Explorer</h2>
+                <ul class="list-explore">
+                    <a href="#inicial" class="explore">Inicial</a>
+                    <a href="#sobre-nos" class="explore">Sobre Nós</a>
+                    <a href="#noticias" class="explore">Notícias</a>
+                    <a href="#infografico" class="explore">Mapa de acessibilidade</a>
+                </ul>
+            </div>
+            <div class="conterr" id="conter-legal">
+                <h2 class="titulo-descricao">Legal</h2>
+                <p>Termos</p>
+                <p>Privacidade</p>
+            </div>
+            <div class="conterr" id="conter-redes">
+                <h2 class="titulo-descricao">Redes Sociais</h2>
+                <img src="../img/Social Icons.svg" alt="">
+            </div>
+        </div>
+        <div class="parteBaixoFooter"></div>
+        <h2 class="titulo-descricao">C<font color="#386DBD">OO</font>PERAR.COM</h2>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="../js/config.js"></script>
 </body>
 </html>

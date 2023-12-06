@@ -509,6 +509,8 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    margin-top: -455px;
 }
 .conterr{
     width: 220px;
@@ -549,4 +551,79 @@ footer{
     height: 1.5px;
     background-color: #979797;
     margin-bottom: 40px;
+}
+
+
+
+/* NAV BAR DO USUARIO */
+/* ------ Nav bar ------ */
+#header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+    padding: 25px 10px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.navegacao{
+    margin: 0px 50px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nome-logo{
+    color: #141414;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 36px */
+    text-transform: uppercase;
+}
+
+#img-logo{
+    width: 97px;
+    height: 61px;
+}
+
+.links{
+    color: var(--black, #141414);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none !important; 
+    margin-right: 55px;
+}
+
+.usuario{
+    width: 240px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    margin-left: -54px;
+}
+
+#user-msg{
+    color: #979797;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 15px;
 }
