@@ -12,6 +12,7 @@ body{
     width: 100%;
     margin: 0px;
 }
+
 #header{
     position: fixed;
     display: flex;
@@ -86,7 +87,7 @@ main{
 }
 #nome-projeto{
     color: #141414;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
