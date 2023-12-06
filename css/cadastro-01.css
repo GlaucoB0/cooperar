@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
 }
-   #barra-superior{
+#barra-superior{
     margin-bottom: 40px;
    width: 1153px;
    height: 91px;
@@ -114,7 +114,6 @@
 }
 
 .box-infomacoes-pessoais{
-    /* border:1px #2C2D5B solid; */
     margin: 25px;
 }
 .info-básicas{
@@ -159,6 +158,11 @@
     width: 334px;
     height: 74px;
     border-radius: 12px;
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
 
 .second-name{
@@ -182,11 +186,21 @@
     width: 334px;
     height: 74px;
     border-radius: 12px;
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }    
 #imput-sobrenome{
     width: 334px;
     height: 74px;
     border-radius: 12px;
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
 #sobrenome{
     font-size: 20px;
@@ -219,6 +233,11 @@
     height: 60.337px;
     border-radius: 12px;
     margin-bottom: 25px;
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
 #data{
     font-size: 20px;
@@ -241,7 +260,13 @@
     width: 455.727px;
     height: 60.337px;
     border-radius: 12px;
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
+
 #genero{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
@@ -276,7 +301,14 @@
     height: 60.337px;
     border-radius: 12px;
     margin-bottom: 25px;
+    border: 2px #979797 solid;
+
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
+
 #email{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
@@ -292,6 +324,11 @@
     height: 60.337px;
     border-radius: 12px;
     margin-bottom: 25px;
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
 #senha{
     font-size: 20px;

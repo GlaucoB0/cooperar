@@ -3,11 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Configuração</title>
     <link rel="stylesheet" href="../css/config.css">
 </head>
 <body>
+    <header id="header">
+        <div id="nav-bar">
+            <div id="logo">
+                <img src="../img/Logo.jpg" alt="" id="img-logo">
+                <span id="nome-logo">C<font color="#2B468B">oo</font>perar</span>
+            </div>
+            
+            <div class="navegacao">
+                <a href="#inicial">Inicial</a>
+                <a href="#sobre-nos">Sobre nós</a>
+                <a href="#noticias">Noticias</a>
+                <a href="#infografico">Infográfico</a>
+                <a href="#config">Configurações</a>
+            </div>
+            <div class="usuario">
+                <img id="user-icon" src="../assets/User icon.svg" alt="">
+                <p id="user-msg">Olá Usuário!</p>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <div class="title">
+                <h1 id="main-title">Painel De Configuração De Perfil</h1>
+            </div>
+            <div class="user-info">
 
+                <!-- Informações Pessoais -->
+                <section class="info-pessoais">
+                    <p class="title1">Informações pessoais</p>
+                    <article class="info1">
+                      <div class="name">
+                        <p class="nome">Nome: <br> <span>Fulaninho</span></p>
+                      </div>
+                      <div class="second-name">
+                        <p class="sobrenome">Sobrenome: <br> <span>Di Sicrano</span></p>
+                      </div>
+                      <div class="cpf">
+                        <p class="CPF">CPF: <br> <span>123.456.789-01</span></p>
+                      </div>
+                    </article>
+                </section>
+
+                <!-- Foto de Perfil -->
+                <section class="user-img">
+                    <img src="../img/Group 7047.png" alt="" id="perfil">
+                    <button type="button">Alterar Imagem</button>
+                </section>
+
+                <!-- Informações de Nascimento -->
+                <section class="info-nascimento">
+                    <p class="title2">Informações de Nascimento</p>
+                    <article class="info2">
+                      <div class="date">
+                        <p class="dia">Dia: <br> <span>17</span></p>
+                        <p class="mes">Mês: <br> <span>Dezembro</span></p>
+                        <p class="ano">Ano: <br> <span>2006</span></p>
+                      </div>
+                      <div class="gender">
+                        <p class="gênero">Gênero: <br> <span>Masculino</span></p>
+                      </div>
+                      <div class="condition">
+                        <p class="condição">Condição: <br> <span>cadeirante</span></p>
+                      </div>
+                    </article>
+                </section>
+
+                <!-- Informações de Endereço -->
+                <section class="info-endereco">
+                    <p class="title3">Informações de Endereço</p>
+                    <article class="info3">
+                      <div class="cep">
+                        <p class="CEP">CEP: <br> <span>89.254-020</span></p>
+                      </div>
+                      <div class="adress">
+                        <p class="endereço">Endereço: <br> <span>Rua Maria Bertoldi Bertoli</span></p>
+                      </div>
+                      <div class="number">
+                        <p class="número">Número: <br> <span>12 </span></p>
+                      </div>
+                      <div class="neighbourhood">
+                        <p class="bairro">Bairro: <br> <span>Água Verde</span></p>
+                      </div>
+                      <div class="complement">
+                        <p class="complemento">Complemento: <br> <span>Jacaré do Sul</span></p>
+                      </div>
+                    </article>
+                </section>
+
+                <!-- Informações de Cadastro -->
+                <section class="info-endereco">
+                    <p class="title4">Informações de Cadastro</p>
+                    <article class="info4">
+                      <div class="email">
+                        <p class="EMAIL">Email: <br> <span>fulaninhodecicrano@email.com</span></p>
+                      </div>
+                      <div class="password">
+                        <p class="senha">Senha: <br> <span>************</span></p>
+                      </div>
+                      <div class="end">
+                        <a class="encerrar" href="#"> ENCERRAR SESSÃO </a>
+                      </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
 
     <script src="../js/config.js"></script>
 </body>
