@@ -47,70 +47,44 @@
 </head>
   <body>
     <div class="main">
-    <header class="box-barra-superior">
-        <a href="/pages/cadastro-02.html" class="voltar">
-            <img src="/img/botão voltar.svg" alt="" class="img-voltar">
+    
+        
+    <header class="box-voltar-inicio">
+        <a href="/index.html" class="incio">
+            <img src="/img/Botão home.svg" alt="" class="img-voltar">
         </a>
-        <a href="#" class="botao-avancar">
-            <img src="/img/botão avançar.svg" alt="" class="img-avancar">
-        </a>
-      <navbar id="barra-superior">
-        <div class="linha"> </div>
-        <div class="box-bolinhas">
-          <div id="bolinha1">
-            <div id="numero1">1</div>
-          </div>
-          <div id="bolinha2">
-            <div id="numero2">2</div>
-          </div>
-          <div id="bolinha3">
-            <div id="numero3">3</div>
-          </div>
-        </div>
-      </navbar>
     </header>
+        
 
-    <main class="box-cadastro">
-      <div class="cadastro">
+    <main class="box-login">
+      <div class="login">
         <div class="box-logo-cadastro">
-          <img id="logo" src="../img/Group 7045.svg" alt="" />
+          <img id="logo" src="../img/Group 7048.svg" alt="" />
+          
         </div>
-
-        <div class="box-infomacoes-condicao">
-          <section class="info-condicao">
-            <p class="title1">Informações de Condição</p>
-            <div class="info1"> 
-              <div class="box-condicao">
-                <label for="condicao" id="condicao">Condição:</label>
-                <input type="text" id="imput-condicao" placeholder="Digite sua condição..."/>
-              </div>
-            </div>
-            <div class="info2"> 
-                <div class="box-comprovacao">
-                  <label for="comprovacao" id="comprovacao">Comprovação:</label>
-                  <div class="box-comprovacao">
-                    <div class="arraste-up-img">
-                        <div class="arrate-img">
-                            <p>Arraste uma Imagem</p>
-                        </div>
-                        <div class="ulploud-img">
-                            <p>Ou faça o Upload</p>
-                        </div>
-                    </div>
-                    
-                  </div>
+        
+        <div class="email-senha-concluir">
+            <div class="email-senha">
+                <div class="email">
+                    <label for="email" id="email">Email:</label>
+                    <input type="text" id="imput-email" placeholder="Digite seu email..."/>
+                </div>
+                <div class="senha">
+                    <label for="email" id="senha">Senha:</label>
+                    <input type="text" id="imput-senha" placeholder="Digite sua senha..."/>
                 </div>
             </div>
-          </section>
-
-    
-
-          <section class="box-botao">
-              <a href="../css/login-01.css" id="botao-concluir">Concluir</a>
-          </section>
+            <div class="button-link">
+                <a href="../pages/index-02.html" id="botao-concluir">Entrar</a>
+                <a id="redirect-cadastro" href="../pages/cadastro-01.html">Não possui uma conta?</a>
+              </div>
         </div>
-      </div>
-      <img src="/img/bonequinha.svg" class="cadeirante" alt="" />
+        
+
+        </div>
+
+        
+      <img src="../img/Boneco-sem-perna.svg" class="boneco-sem-perna" alt="" />
     </main>
 
     <script src="../js/cadastro-01.js"></script>

@@ -135,6 +135,8 @@
     color:  #979797;
     display: flex;
     justify-content: start;
+    margin-left: -120px;
+    margin-bottom: 23px;
 }
 
 .info1{
@@ -237,6 +239,8 @@
     color:  #979797;
     display: flex;
     justify-content: start;
+    margin-left: 20px;
+    margin-bottom: 23px;
 }
 
 .info2{
@@ -305,6 +309,9 @@
     color:  #979797;
     display: flex;
     justify-content: start;
+
+    margin-left: 20px;
+    margin-bottom: 23px;
 }
 
 .info3{

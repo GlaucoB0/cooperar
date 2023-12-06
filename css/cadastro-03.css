@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .main{
     background-color: #F8FAFB;
     margin: 0;
@@ -5,6 +9,7 @@
     background-image: url(/img/image-removebg-preview\ 3.svg);
     background-repeat: no-repeat;
     background-position: -200px;
+    height: 100vh;
     
 }
 .box-barra-superior{
@@ -157,7 +162,7 @@
 
 .box-condicao{
      /* border:1px #2C2D5B solid;  */
-    padding-right: 30px;
+    /* padding-right: 30px; */
 
 }
 .box-comprovacao{
@@ -202,6 +207,12 @@
     flex-shrink: 0;
     border-radius: 12px;
     padding-left: 20px;
+
+    border: 2px #979797 solid;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
 }
 #imput-complemento{
     width: 759px;
@@ -211,26 +222,35 @@
 .box-comprovacao{
     width: 735.058px;
     height: 188px;
-    border: 1px black solid;
+    border: 1.5px #979797 solid;
     border-radius: 12px;
     
 }
 .arraste-up-img{
     display: flex;
-    justify-content: space-evenly;
     margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .arrate-img{
     width: 217.383px;
     height: 62px;
     flex-shrink: 0;
     background-color: white;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    
     border-radius: 12px;
     text-align: center;
     font-family: 'Lata', sans-serif;
     font-size: 16px;
     font-weight: 600;
+    border: dashed #979797 2px;
+
+    color: #979797;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
 }
 .ulploud-img{
     width: 217.383px;
@@ -244,6 +264,10 @@
     font-family: 'Lata', sans-serif;
     font-size: 16px;
     font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .title2{
     /* border:1px #2C2D5B solid; */
@@ -295,7 +319,7 @@
 }
 .cadeirante{
     position: absolute;
-    top: 454px;
+    top: 390px;
     margin-left: 1360px;
 
 }
