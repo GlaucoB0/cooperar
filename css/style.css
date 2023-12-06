@@ -71,10 +71,17 @@ body{
 #cadastro{
     background-color: var(--azul-escuro) ;
     color: var(--white);
-    padding: 20px 40px;
+    padding: 20px 45px;
     border-radius: 12px;
     width: 90px;
+    height: 20px;
     font-weight: 800;
+    text-align: center;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* PAGINA INICIAL*/
@@ -214,6 +221,8 @@ main{
 #sugestao{
     height: 137px;
     width: 580px;
+    max-width: 580px;
+    max-height: 135px;
     border-radius: 12px;
     border-color: #979797;
     margin-top: 15px;
@@ -229,6 +238,7 @@ main{
 
     /* mudei as cores das bordas e aumentei a fonte tb */
 }
+
 .input-sugestao{
     margin-top: 22px;
     color: #979797;
@@ -241,8 +251,9 @@ main{
     border-radius: 12px;
     font-weight: 800;
     font-size: 16px;
-    margin-top: 22px;
+    margin-top: 320px;
     text-decoration: none;
+    position: absolute;
 }
 /*--------------------------------Sobre - nos--------------------------*/
 #sobre-nos{
