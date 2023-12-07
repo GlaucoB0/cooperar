@@ -25,3 +25,45 @@ function scrollFunction() {
     document.getElementById("img-logo").style.height = "61px";
   }
 }
+
+
+const inemail = document.getElementById("email");
+const innome = document.getElementById("nome");
+const insugestao = document.getElementById("sugestao");
+
+const enviar = document.getElementById("enviar");
+
+enviar.addEventListener('click', function(){
+  let email = inemail.value;
+  let nome = innome.value;
+  let sugestao = insugestao.value;
+
+  // alert(`${email}, ${nome}, ${sugestao}`)
+
+  if (!validarEmail(email)){
+    alert("insira um email válido")
+    return
+  }
+
+    if(/\d/.test(nome) || nome === ''){
+    alert('Insira seu nome corretamente')
+    return
+  }
+
+  if(sugestao === ''){
+    alert('Digite algo na sugestão!')
+    
+  }
+
+  else{
+    alert("Sugestão enviada com sucesso! obrigado pela colaboração.")
+  }
+})
+
+
+function validarEmail(email){
+  const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regexEmail.test(email);
+}
+
+

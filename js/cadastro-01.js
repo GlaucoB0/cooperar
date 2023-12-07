@@ -1,56 +1,56 @@
-// const form1 = document.getElementById("form1");
-// const form2 = document.getElementById("form2");
-// const form3 = document.getElementById("form3");
-// const imputnome = document.getElementById("imput-nome");
-// const imputsobrenome = document.getElementById("imput-sobrenome");
-// const imputcpf = document.getElementById("imput-cpf");
-// const imputnascimento = document.getElementById("imput-nascimento");
-// const imputgenero = document.getElementById("imput-genero");
-// const imputemail = document.getElementById("imput-email");
-// const imputsenha = document.getElementById("imput-senha");
+const innome = document.getElementById('imput-nome');
+const insobrenome = document.getElementById('imput-sobrenome');
+const incpf = document.getElementById('imput-cpf');
+const indata = document.getElementById('imput-nascimento');
+const inemail = document.getElementById("imput-email");
+const insenha = document.getElementById("imput-senha")
 
+const avancar = document.getElementById("botaoavancar");
 
-// function checkInputNome(){
-//     const imputnomeValue = imputnome.value;
-//     console.log(imputnomeValue)
-// } 
+avancar.addEventListener('click', function(){
+  let nome = innome.value;
+  let sobrenome = insobrenome.value;
+  let cpf = incpf.value;
+  let data = indata.value;
+  let email = inemail.value;
+  let senha = insenha.value;
 
-// function checkInputNome(){
-//     const imputnomeValue = imputnome.value;
-    
-//     if(imputnome === ""){
-//        console.log(erro);
-//     }else{
-//         const form1Item = imputnome.parentElement;
-//         form1Item.className = "form-content"
-//       }
-// }
+  console.log(genero);
 
+  if(/\d/.test(nome) || nome === ''){
+    alert('Insira seu nome corretamente');
+    return;
+  }
 
-// function checkForm1(){
-//     imputnome();
-    
-  
-//     const form1Items = form1.querySelectorAll(".form-content")
-  
-//     const isValid = [...form1Items].every( (item) => {
-//       return item.className === "form-content"
-//     });
-  
-//     if(isValid){
-//       alert("CADASTRADO COM SUCESSO!")
-//     }
-  
-//   }
-  
-  
-//   function errorInput(input, message){
-//     const form1Item = input.parentElement;
-//     const textMessage = form1Item.querySelector("a")
-  
-//     textMessage.innerText = message;
-  
-//     form1Item.className = "form-content error"
-  
-//   }
+  if(/\d/.test(sobrenome) || sobrenome === ''){
+    alert('Insira seu sobrenome corretamente');
+    return;
+  }
 
+  if(cpf.length !== 11 || isNaN(cpf)){
+    alert('Digite seu CPF corretamente');
+    return;
+  }
+
+  if (!validarEmail(email)){
+    alert("insira um email válido");
+    return;
+  }
+
+  if (!validarSenha(senha)){
+    alert("A senha não atende aos requisitos mínimos" + "\n Requisitos da senha: pelo menos 8 caracteres, pelo menos uma letra maiúscula, um número e um caractere especial");
+    return;
+  }
+
+});
+
+function validarEmail(email){
+    const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regexEmail.test(email);
+}
+
+function validarSenha(senha){
+    // Requisitos da senha: pelo menos 8 caracteres, pelo menos uma letra maiúscula, um número e um caractere especial (feuto com pesquisa)
+    const regexSenha = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    return regexSenha.test(senha);
+}

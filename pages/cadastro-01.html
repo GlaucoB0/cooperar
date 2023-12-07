@@ -102,14 +102,20 @@
           <div class="info-cadas-nasc">
             <section class="info-nascimentos">
               <form id="form2" class="info2">
+
                 <div class="date">
                   <p class="title2">Informações de nascimento</p>
                   <label for="Data" id="data">Data:</label>
                   <input type="date" id="imput-nascimento" name="nascimento"/>
+
+                  <label for="genero" id="label-genero">Gênero:</label>
+                  <input list="genero" id="imput-genero" placeholder="Selecione"/>
+
+                      <datalist id="genero">
+                        <option value="Masculino">
+                        <option value="Feminino">
+                      </datalist>
                   
-                  <label for="Gênero" id="genero">Gênero:</label>
-                  <input type="text" id="imput-genero" placeholder="Digite seu gênero"
-                  />
                 </div>
               </form>
             </section>
@@ -122,7 +128,7 @@
                   />
 
                   <label for="Senha" id="senha">Senha:</label>
-                  <input type="text" id="imput-senha" placeholder="Digite seu senha..."
+                  <input type="password" id="imput-senha" placeholder="Digite seu senha..."
                   />
                 </div>
               </form>
@@ -131,7 +137,7 @@
 
           <section class="box-botao">
             <div class="button-link">
-              <a href="./cadastro-02.html" id="botaoavancar" >Avançar</a>
+              <a href="#" id="botaoavancar" >Avançar</a>
               <a id="redirect-login" href="../pages/login-01.html">Já possui outra conta?</a>
             </div>
            
